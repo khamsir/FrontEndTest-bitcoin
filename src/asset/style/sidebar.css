@@ -1,0 +1,41 @@
+#sidebar{
+    width: 250px;
+    position: absolute;
+    padding: 50px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 15pt;
+}
+
+#sidebar a, #sidebar .sidebar-lower-menu{
+    color: grey;
+    text-decoration: none;
+}
+
+.sidebar-upper-menu{
+    margin: 10px 0 15px;
+}
+
+.company-container{
+    margin-bottom: 30px;
+}
+
+.sidebar-list .sidebar-menu{
+    padding: 10px 0;
+}
+
+#sidebar a:hover, #sidebar .sidebar-lower-menu:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar .active{
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}

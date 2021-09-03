@@ -1,0 +1,38 @@
+body {
+  font-family: "Concert One", cursive;
+}
+#main-parent {
+  margin-left: 250px;
+  position: relative;
+  padding: 30px;
+  height: 100vh;
+}
+
+.main-child {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  padding: 30px;
+  border: 1px solid gray;
+}
+
+.main-title {
+  margin: 30px auto 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title button {
+  margin-top: 30px;
+}
+
+.navy {
+  background-color: navy;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
